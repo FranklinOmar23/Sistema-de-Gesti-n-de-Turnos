@@ -12,7 +12,7 @@ private:
 
 public:
     Turno(int id, const std::string& fecha, const std::string& hora);
-    Turno() = default; // Constructor por defecto
+    Turno(); // Constructor por defecto
     int getId() const;
     void setId(int id);
 

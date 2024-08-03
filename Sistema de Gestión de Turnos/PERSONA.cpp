@@ -39,8 +39,8 @@ void Persona::setTelefono(const std::string& telefono) {
 void Persona::mostrarInformacion() const {
     std::cout << "Nombre: " << nombre << "\n"
         << "ID: " << id << "\n"
-        << "Cédula: " << cedula << "\n"
-        << "Teléfono: " << telefono << std::endl;
+        << "Cedula: " << cedula << "\n"
+        << "Telefono: " << telefono << std::endl;
 }
 
 void Persona::guardar(std::ofstream& out) const {

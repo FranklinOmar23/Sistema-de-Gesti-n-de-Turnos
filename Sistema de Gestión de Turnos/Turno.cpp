@@ -4,6 +4,8 @@
 Turno::Turno(int id, const std::string& fecha, const std::string& hora)
     : id(id), fecha(fecha), hora(hora) {}
 
+Turno::Turno() : id(0), fecha(""), hora("") {} // Implementación del constructor por defecto
+
 int Turno::getId() const {
     return id;
 }
